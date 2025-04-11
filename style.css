@@ -1,0 +1,215 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: #10182B ;
+}
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+  }
+  
+  .fade-in.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+
+a.navbar-brand{
+    color: #fff;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+a.navbar-brand:hover :active{
+    color: #fff;
+}
+
+section.hero{
+    /* background-color: #0F172A; */
+    background: linear-gradient(#0f172a,#03246b);
+    color: #fff;
+    height: 100vh;
+}
+
+.content{
+    transform: translateY(25%);
+}
+
+.display-5{
+    color: #2BB7F1;
+}
+
+
+
+section.about{
+    background-color: #141c29;
+    color: #fff;
+}
+
+button{
+    background-color: #90F7EC ;
+}
+
+.nav-link{
+    color: #fff;
+}
+
+.services i{
+    font-size: 24px;
+    color: #c4d3f5;
+    margin-bottom: 10px;
+}
+
+section.services{
+    background-color: #1E293B;
+    color: #fff;
+}
+
+
+.services h4{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.services .col{
+    border-radius: 14px;
+    background-color: #334155;
+
+}
+
+h2{
+    font-weight: 600;
+}
+
+.work img {
+    max-width: 100%; 
+    height: auto;
+}
+
+section.work{
+    background-color: #1E293B ;
+}
+
+section.contact{
+    border-top-left-radius: 28px;
+    border-top-right-radius: 28px;
+    background-color: #121212 ;
+    height: 100vh;
+    position: relative;
+    overflow-x: hidden;
+    padding: 0 16px;
+    border-bottom: 2px solid #fff;
+
+}
+
+footer{
+    /* background-color: #121212 ; */
+    color: #fff;
+
+}
+
+i.fa-microphone{
+    text-align: center;
+    font-size: 40px;
+    padding: 20px 25px;
+    background-color: #0452fa;
+    border-radius: 90%
+}
+
+.contact span{
+    color: #0452fa;
+    font-weight: bold;
+}
+
+.image{
+    position: absolute;
+    bottom: 0;
+}
+
+.carousel-item img{
+    /* width: 600px; */
+    /* height: 500px; */
+    border: 2px solid #526ca7;
+    border-radius: 14px;
+}
+
+.navbar-toggler-icon{
+    background-image: url(photos/menu.png);
+}
+
+.navbar-brand:hover{
+    color: wheat;
+}
+
+.nav-link:hover{
+    color: wheat;
+}
+
+
+
+@media (max-width:768px) {
+
+    body{
+        font-size: 100%;
+        overflow-x: hidden;
+    }
+  
+    .hero{
+        height: auto;
+    }
+
+    .hero h4{
+        font-size: 18px;
+        color: #999;
+    }
+ 
+    .image img{
+        display: none;
+    }
+    .image{
+        left: 25%;
+        width: 200px;
+
+    }
+
+    .photo img{
+        width: 90%;
+    }
+
+    section.contact{
+      height: auto;
+    }
+
+
+    .col{
+        margin-top: 12px;
+    }
+
+    footer h2{
+        font-size: 90%;
+    }
+   
+    footer a.nav-link{
+        font-size: 80%;
+    }
+
+    .photo img{
+        width: 300px;
+        display: block;
+        margin: auto;
+    }
+        
+
+    
+
+  
+    
+}
